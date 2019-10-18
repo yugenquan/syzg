@@ -23,11 +23,11 @@
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="cn.com.syzg.repository" targetProject=".">
+        <sqlMapGenerator targetPackage="mapper" targetProject=".">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="mapper" type="XMLMAPPER" targetProject=".">
+        <javaClientGenerator targetPackage="cn.com.syzg.repository" type="XMLMAPPER" targetProject=".">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 

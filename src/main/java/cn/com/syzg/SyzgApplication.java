@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("cn")
+@ComponentScan("cn.com")
 @MapperScan("cn.com.syzg.repository")
 public class SyzgApplication {
 
